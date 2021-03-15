@@ -10,10 +10,6 @@
         display: table;
     }
 
-    [class*="col-"] {
-        float: left;
-    }
-
         /* XS */
     @media all and (max-widht: 767px) {
     .col-xs-1 {
@@ -142,7 +138,6 @@
         width: calc((100% / 12) * 9);
     }
 
-
     .col-md-10 {
         width: calc((100% / 12) * 10);
     }
@@ -206,7 +201,6 @@
     }
     
     }
-    
 
         /* lg */
     @media all and (min-widht: 992px) {
